@@ -38,8 +38,8 @@ void SortArray(int[,] arr)
     {
         for (int j = 0; j < arr.GetLength(1); j++)
         {
-            int maxElem = j;                                    // Вводится переменная для сохранения значения максимального элемента
-            for (int m = j + 1; m < arr.GetLength(1); m++)      // 
+            int maxElem = j;                                    
+            for (int m = j + 1; m < arr.GetLength(1); m++)      
             {
                 if (arr[i, m] > arr[i, maxElem]) maxElem = m;
             }
